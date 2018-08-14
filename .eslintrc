@@ -1,0 +1,31 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "extends": "eslint:recommended",
+    "env": {
+      "browser": true,
+      "jquery": true,
+      "node": true,
+      "jasmine": true,
+      "es6": true,
+
+
+    },
+    "rules": {
+      "semi": 1,
+      "indent": ["warn", 2],
+      "no-console": "warn",
+      "no-debugger": "warn",
+      "no-unused-vars": "warn"
+  }
+}
+# let responses = response.data;
+# if(responses.length === 0){
+# function toSort(response){
+#   let responses = response.data;
+#   if(responses.length === 0){
+#     $("#noShow").text("There is currently nothing we can recommend to you");
+#   }else{
+#   responses.foreach(result){

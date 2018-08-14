@@ -1,3 +1,14 @@
 body{
-  background-color: #7FDBFF;
+  background-color: ;
+}
+
+#findDoc{
+  color: black;
+  background-color: powderblue;
+
+}
+.Jumbotron{
+  background-color: darkred;
+  text-align: center;
+  color: GREY;
 }

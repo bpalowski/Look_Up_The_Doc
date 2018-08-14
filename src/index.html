@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Starter</title>
-  </head>
-  <body>
-    <h1> This is a header</h1>
-  </body>
-</html>
+  <html>
+    <head>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <title>Find The Doctor</title>
+    </head>
+    <body>
+        <h2>Doctor</h2>
+        <label for="issue">Search by medical issue:</label>
+        <input id="issue" type="text" >
+
+        <label for="condition">Search by Doctor name:</label>
+        <input  id="condition" type="text" >
+
+        <button class="click" id="findDoc">Click to see</button>
+        <div class="errors"></div>
+
+        <div class="showDetails" id="showDetails"></div>
+
+    </body>
+  </html>
